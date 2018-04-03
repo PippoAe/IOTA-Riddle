@@ -1,6 +1,6 @@
 # IOTA-Riddle     
 Create an IOTA seed from an input file.       
-This will be used for small riddles that, if solved correctly, reveal the seed to a reward.        
+This will be used for small riddles that, if solved correctly, reveal the seed to a reward when passed trough this function.     
 
 How the seed from the input file is generated using SHA512 Hashing:        
 
@@ -29,3 +29,34 @@ How the seed from the input file is generated using SHA512 Hashing:
             //Return the seed
             return seedChunk.Substring(0, 81);
         }
+
+
+How to solve a riddle:
+1. Do whatever the file tells you to do.    
+2. If you think you got it right, pass the file trough the above function.
+3. A seed will be generated.   
+4. Log into the seed using the IOTA wallet.    
+5. If you solved the riddle correctly, you should now see the reward that you can claim by sending it to an address of yours.
+6. Bonus points: If it was a fun riddle and you want other people to solve it too, you can make the reward bigger by sending additional IOTAS the address.    
+
+
+How to make a riddle:
+1. Create a random file (txt, bmp, etc.).       
+2. Fill the file with a riddle and drop the solved riddle into the above function to have a seed generated       
+(or use the .exe located on the release page).        
+3. Do a login on the iota wallet with the generated seed and generate a receiving address.       
+4. Send an awesome reward to the receiving-address as a price for the future solver to claim.
+5. Create a backup-copy of the solved riddle-file.     
+6. Remove all the correct answers from the file so it can be solved again.
+        Check a few times if the riddle can be solved correctly and ends up being the exact same as the solved file.      
+7. Change the name of the file to the receiving address where you have sent the reward.
+(This way, the people trying to solve it can see if the reward has already been claimed).      
+8. Send the riddle to a friend, friends or the world.     
+9. See how long it takes until the reward is claimed.
+10. Smile.
+
+
+
+
+Donate:YBUNLZILIHZUXFQLR9OSSVVKRNW9ULXEUBCHFILBMZOHLGOABBGEPIJTQNCFBXOUHUQNRQIEICPQNUDADAVZHSTZMX
+
