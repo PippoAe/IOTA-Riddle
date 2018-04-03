@@ -2,7 +2,7 @@
 Create an IOTA seed from an input file.       
 This will be used for small riddles that, if solved correctly, reveal the seed to a reward.        
 
-How the seed from the input file by using SHA512 Hashing:        
+How the seed from the input file is generated using SHA512 Hashing:        
 
         //This function is a first approach to generate a seed from a file.
         //This could be done alot better, but I have no clue how to do this yet :)
