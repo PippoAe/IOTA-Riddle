@@ -33,7 +33,7 @@ How the seed from the input file is generated using SHA512 Hashing:
 
 How to solve a riddle:
 1. Do whatever the file tells you to do.    
-2. If you think you got it right, pass the file trough the above function.
+2. If you think you got it right, pass the file trough the above function. (or use the .exe here https://github.com/PippoAe/IOTA-Riddle/releases)      
 3. A seed will be generated.   
 4. Log into the seed using the IOTA wallet.    
 5. If you solved the riddle correctly, you should now see the reward that you can claim by sending it to an address of yours.
